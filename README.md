@@ -1,3 +1,7 @@
+Custom plotly bundle with only scatter3d and mesh3d
+
+![](https://user-images.githubusercontent.com/1670421/88951194-3f914a80-d2c8-11ea-9a18-c574e3c1cd63.png)
+
 # Bundling [plotly.js](https://github.com/plotly/plotly.js) with Webpack
 
 *Note*: Webpack now raises a `Can't resolve 'vertx'` warning, which can *safely be ignored* and suppressed using [Webpack's IgnorePlugin](https://webpack.js.org/plugins/ignore-plugin/) like so: `new webpack.IgnorePlugin(/vertx/)`. The root cause of this warning is that `plotly.js` depends on [`es6-promise`](https://github.com/stefanpenner/es6-promise/blob/master/lib/es6-promise/asap.js), which tries to load `vertx` but gracefully falls back if it isn't present.
