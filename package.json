@@ -21,6 +21,6 @@
   "dependencies": {
     "browserify": "^16.5.1",
     "minifyify": "^7.3.5",
-    "plotly.js": "^1.54.4"
+    "plotly.js": "^1.54.7"
   }
 }
